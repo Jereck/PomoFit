@@ -8,7 +8,7 @@ momentDurationFormatSetup(moment)
 const Timer = () => {
   const [sessionType, setSessionType] = useState("Session");
   const [intervalId, setIntervalId] = useState(null);
-  const [sessionLength, setSessionLength] = useState(1 * 10);
+  const [sessionLength, setSessionLength] = useState(25 * 60);
   const timeLeft = moment.duration(sessionLength, 's').format('mm:ss', {trim: false})
 
   useEffect(() => {

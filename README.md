@@ -12,10 +12,10 @@ The motivation for this application was to help with my own health. Since quaran
 ---
 ## Screenshots
 Sign Up Screen
-![signup](screenshots/signup.png)
+![signup](/screenshots/signup.png)
 
 Sign In Screen
-![signin](screenshots/signin.png)
+![signin](/screenshots/signin.png)
 
 Timer Screen
-![timer](screenshots/timer.png)
+![timer](/screenshots/timer.png)

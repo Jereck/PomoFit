@@ -1,12 +1,16 @@
 import React from 'react'
-import { Text, StyleSheet, View, TouchableOpacity, Dimensions } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 
 import Timer from '../components/Timer';
+import WorkoutButtons from '../components/WorkoutButtons';
+import Text from '../components/Text';
 
 const HomeScreen = () => {
   return (
     <View style={styles.container}>
+      <Text title>PomoFit</Text>
       <Timer />
+      <WorkoutButtons />
     </View>
   )
 }
